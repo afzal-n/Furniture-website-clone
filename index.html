@@ -18,49 +18,75 @@
 
 		<!-- Start Header/Navigation -->
 		
+<!-- Start Header/Navigation -->
+		
 
-		  <header class="bg-[#35736E]">
-			<nav class="wrapper border-b border-gray-200 dark:border-gray-600">
-				<div class="flex items-center justify-between p-4">
-					<a href="#" class="flex items-center">
-						<img src="images/logo.png" alt="logo" class="w-[25%]">
-					</a>
-		
-					<div class="hidden items-center justify-between w-full md:flex md:w-auto">
-						<ul class="flex py-4 space-x-4">
-							<li class="max-lg:py-2 px-3">
-								<a href="#" class="hover:text-cyan-200 text-cyan-200 font-semibold text-[16px]">Home</a>
-							</li>
-							<li class="max-lg:py-2 px-3">
-								<a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">About</a>
-							</li>
-							<li class="max-lg:py-2 px-3">
-								<a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Services</a>
-							</li>
-							<li class="max-lg:py-2 px-3">
-								<a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Blog</a>
-							</li>
-							<li class="max-lg:py-2">
-								<a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Contact</a>
-							</li>
-						</ul>
-					</div>
-		
-					<div class="flex justify-end items-center md:block sm:block">
-						<ul class="flex justify-end items-center space-x-6">
-							<li><a href="#"><img src="images/user.png" alt="icon" class="w-[30px]"></a></li>
-							<li><a href="#"><img src="images/cart.png" alt="icon" class="w-[30px]"></a></li>
-						</ul>
-					</div>
-		
-					<div class="items-center justify-between flex md:hidden">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 fill-current text-white ml-4">
-							<path fill-rule="evenodd" d="M2 5a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zM21 10a1 1 0 100-2H3a1 1 0 100 2h18zM21 15a1 1 0 100-2H3a1 1 0 100 2h18zM3 20a1 1 0 100-2h18a1 1 0 100 2H3z"/>
-						</svg>
-					</div>
-				</div>
-			</nav>
-		</header>
+<header class="bg-[#35736E]">
+    <nav class="wrapper border-b border-gray-200 dark:border-gray-600">
+        <div class="flex items-center justify-between p-4">
+            
+                <img src="images/logo.png" alt="logo" class="w-[55px] flex items-center">
+            
+
+            <div class="hidden items-center justify-between md:flex md:w-auto ">
+                <ul class="flex py-4 space-x-4">
+                    <li class="max-lg:py-2 px-3">
+                        <a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px] border border-[#35736E]  border-b-yellow-300 border-b-2">Home</a>
+                    </li>
+                    <li class="max-lg:py-2 px-3">
+                        <a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">About</a>
+                    </li>
+                    <li class="max-lg:py-2 px-3">
+                        <a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Services</a>
+                    </li>
+                    <li class="max-lg:py-2 px-3">
+                        <a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Blog</a>
+                    </li>
+                    <li class="max-lg:py-2">
+                        <a href="#" class="hover:text-cyan-200 text-white font-semibold text-[16px]">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div class="flex justify-end items-center md:block sm:block">
+                <ul class="flex justify-end items-center space-x-6">
+                    <li><a href="#"><img src="images/user.png" alt="icon" class="w-[30px]"></a></li>
+                    <li><a href="#"><img src="images/cart.png" alt="icon" class="w-[30px]"></a></li>
+                </ul>
+            </div> -->
+
+           
+
+            <!-- Responsive navbar -->
+            <div class="flex items-center">
+                <!-- Header Icons -->
+                <div class="flex justify-between  items-center  ">
+                    <!-- Sign In / Register -->
+                    
+
+                    <a class="flex items-center hover:text-gray-200 " href="#">
+                       <img src="images/cart.png" alt="icon" class="w-[29px]">
+                        <span class="flex absolute -mt-5 ml-7">
+                            <span class="animate-ping absolute inline-flex h-1 w-1 rounded-full bg-pink-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-1 w-1 bg-pink-500"></span>
+                        </span>
+                    </a>
+                </div>
+                
+                <a class="flex items-center hover:text-gray-200 ml-4 " href="#">
+                        <img src="images/user.png" alt="icon" class="w-[29px]  hover:text-gray-200">
+                    </a>
+
+                <a class="navbar-burger self-center md:hidden xl:hidden ml-4" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+</header> 
 		
 		
 		
@@ -244,7 +270,7 @@
 		<!-- Start Popular Product -->
 		<!-- Start Popular Product -->
 <section class="container mx-auto py-20">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1  md:col-span-2 lg:col-span-2 xl:grid-cols-3 gap-4">
         <!-- Product 1 -->
         <div class="col-span-1 md:col-span-1 relative">
             <div class="flex items-center">
@@ -504,201 +530,331 @@
 
 
 
+<!-- Start Footer Section -->
+<footer class="bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div>
+          <div class="flex justify-center text-teal-600 sm:justify-start">
+            <img src="images/logo-green.png" class="h-8"  fill="none" >
+         
+              
+          </div>
+  
+          <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
+            Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+          </p>
+  
+          <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+            <li>
+              <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75"
+              >
+                <span class="sr-only">Facebook</span>
+                <img src="images/facebook.png" class="h-6 w-6" fill="currentColor"  >
+                
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75" >
+                <span class="sr-only">Instagram</span>
+                <img src="images/instagram.png" class="h-6 w-6" fill="currentColor"  >
+  
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75">
+                <span class="sr-only">Twitter</span>
+                <img src="images/twitter.png" class="h-6 w-6" fill="currentColor">
+                  
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75">
+                <span class="sr-only">Linkedin</span>
+                <img src="images/linkedin-in.png" class="h-6 w-6" fill="currentColor" >
+                
+              </a>
+            </li>
+  
+            
+          </ul>
+        </div>
+  
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
+
+           
+            
 
 
-		<!-- Start Footer Section -->
-		<footer class="bg-white">
-			<div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-			  <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-				<div>
-				  <div class="flex justify-center text-teal-600 sm:justify-start">
-					<img src="images/logo-green.png" class="h-8"  fill="none" >
-				 
-					  
-				  </div>
-		  
-				  <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-					Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
-				  </p>
-		  
-				  <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
-					<li>
-					  <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75"
-					  >
-						<span class="sr-only">Facebook</span>
-						<img src="images/facebook.png" class="h-6 w-6" fill="currentColor"  >
-						
-					  </a>
-					</li>
-		  
-					<li>
-					  <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75" >
-						<span class="sr-only">Instagram</span>
-						<img src="images/instagram.png" class="h-6 w-6" fill="currentColor"  >
-		  
-					  </a>
-					</li>
-		  
-					<li>
-					  <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75">
-						<span class="sr-only">Twitter</span>
-						<img src="images/twitter.png" class="h-6 w-6" fill="currentColor">
-						  
-					  </a>
-					</li>
-		  
-					<li>
-					  <a href="#" rel="noreferrer" target="_blank" class="text-teal-700 transition hover:text-teal-700/75">
-						<span class="sr-only">Linkedin</span>
-						<img src="images/linkedin-in.png" class="h-6 w-6" fill="currentColor" >
-						
-					  </a>
-					</li>
-		  
-					
-				  </ul>
-				</div>
-		  
-				<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-				  <div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900">Links</p>
-		  
-					<ul class="mt-8 space-y-4 text-sm">
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  About Us
-						</a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  Services
-						</a>
-					  </li>
-		  
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  Blog
-						</a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  Contact Us
-						</a>
-					  </li>
-		  
-					 
-					</ul>
-				  </div>
-		  
-				  <div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900">FAQs</p>
-		  
-					<ul class="mt-8 space-y-4 text-sm">
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  Support
-						</a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">
-						  Knowledge base
-						</a>
-					  </li>
-		  
-					  <li>
-						<a
-						  class="group flex justify-center  gap-1.5 ltr:sm:justify-start rtl:sm:justify-end md:mr-24"
-						  href="#"
-						>
-						  <span class="text-gray-700 transition group-hover:text-gray-700/75">
-							Live Chat
-						  </span>
-		  
-						  <span class="relative flex h-2 w-2">
-							<span
-							  class="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
-							></span>
-							<span class="relative inline-flex size-2 rounded-full bg-teal-500"></span>
-						  </span>
-						</a>
-					  </li>
-		  
-			  
-					</ul>
-				  </div>
-		  
-				  <div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900">Helpful Links</p>
-		  
-					<ul class="mt-8 space-y-4 text-sm">
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Jobs </a>
-					  </li>
-		  
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Our team  </a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Leadership  </a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Privacy Policy </a>
-					  </li>
-		  
-					  
-		  
-						  
-					</ul>
-				  </div>
-		  
-				  <div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900">Products</p>
-		  
-					<ul class="mt-8 space-y-4 text-sm">
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Nordic Chair </a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Kruzo Aero </a>
-					  </li>
-					  <li>
-						<a class="text-gray-700 transition hover:text-gray-700/75" href="#">Ergonomic Chair </a>
-					  </li>
-					</ul>
-				  </div>
-				</div>
-			  </div>
-		  
-			  <div class="mt-12 border-t border-gray-100 pt-6">
-				<div class="text-center sm:flex sm:justify-between sm:text-left">
-				  <p class="text-sm text-gray-500">
-					<span class="block sm:inline">All rights reserved.</span>
-		  
-					<a
-					  class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-					  href="#"
-					>
-					  Terms & Conditions
-					</a>
-		  
-					<span>&middot;</span>
-		  
-					<a
-					  class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-					  href="#"
-					>
-					  Privacy Policy
-					</a>
-				  </p>
-		  
-				  <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2022 Fin Comapany</p>
-				</div>
-			  </div>
-			</div>
-		  </footer>
-		
-		<!-- End Footer Section -->	
+          
+          <div class="text-center sm:text-left ">
+            
+            <p class="text-lg font-medium text-gray-900 hidden sm:block">Links</p>
+           <ul class="mt-3 space-y-4 text-sm ">
+        <li class="sm:flex sm:flex-col">
+            <details class="group sm:hidden justify-center items-center">
+                <summary class="flex justify-center items-center gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+                    <span >
+                        Links
+                    </span>
+                    <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </summary>
+                <article class="px-4 pb-4 ">
+                    <ul class="flex flex-col gap-4 pl-2 mt-4 ">
+                        <li class="flex gap-2 text-center justify-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Services
+                            </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </details>
+        
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        About Us
+                    </a>
+                </li>
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Services
+                    </a>
+                </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Contact Us
+                    </a>
+                </li>
+            
+        </li></div> </ul>
 
+     
+          <div class="text-center sm:text-left ">
+            
+            <p class="text-lg font-medium text-gray-900 hidden sm:block">FAQs</p>
+           <ul class="mt-3 space-y-4 text-sm ">
+        <li class="sm:flex sm:flex-col">
+            <details class="group sm:hidden justify-center items-center">
+                <summary class="flex justify-center items-center gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+                    <span >
+                        FAQs
+                    </span>
+                    <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </summary>
+                <article class="px-4 pb-4 ">
+                    <ul class="flex flex-col gap-4 pl-2 mt-4 ">
+                        <li class="flex gap-2 text-center justify-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Support
+                            </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Knowledge base
+                            </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                                Live Chat
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </article>
+            </details>
+        
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Support
+                    </a>
+                </li>
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Knowledge base
+                    </a>
+                </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                        Live Chat
+                    </a>
+                </li>
+               
+            
+        </li></div> </ul>
+
+          <div class="text-center sm:text-left ">
+            
+            <p class="text-lg font-medium text-gray-900 hidden sm:block">Helpful Links</p>
+           <ul class="mt-3 space-y-4 text-sm ">
+        <li class="sm:flex sm:flex-col">
+            <details class="group sm:hidden justify-center items-center">
+                <summary class="flex justify-center items-center gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+                    <span >
+                        Helpful Links
+                    </span>
+                    <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </summary>
+                <article class="px-4 pb-4 ">
+                    <ul class="flex flex-col gap-4 pl-2 mt-4 ">
+                        <li class="flex gap-2 text-center justify-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Jobs </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Our team  </a>
+                         </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Leadership  </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Privacy Policy </a>
+                        </li>
+                    </ul>
+                </article>
+            </details>
+        
+                <li class="hidden sm:block gap-2">
+                    <a href="http://127.0.0.1:8000/user/dashboard">
+                        Jobs
+                    </a>
+                </li>
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Our team  </a>
+              </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Leadership  </a>
+                </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Privacy Policy </a>
+                </li>
+            
+        </li></div> </ul>
+
+
+  
+          <!-- <div class="text-center sm:text-left">
+            <p class="text-lg font-medium text-gray-900"></p>
+  
+            <ul class="mt-8 space-y-4 text-sm">
+              <li>
+                
+              </li>
+              <li>
+                
+              </li>
+              <li>
+                
+              </li>
+            </ul>
+          </div>-->
+
+          <div class="text-center sm:text-left ">
+            
+            <p class="text-lg font-medium text-gray-900 hidden sm:block">Products</p>
+           <ul class="mt-3 space-y-4 text-sm ">
+        <li class="sm:flex sm:flex-col">
+            <details class="group sm:hidden justify-center items-center">
+                <summary class="flex justify-center items-center gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+                    <span >
+                        Products
+                    </span>
+                    <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </summary>
+                <article class="px-4 pb-4 ">
+                    <ul class="flex flex-col gap-4 pl-2 mt-4 ">
+                        <li class="flex gap-2 text-center justify-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Nordic Chair </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Kruzo Aero </a>
+                        </li>
+                        <li class="flex gap-2 justify-center items-center">
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Ergonomic Chair </a>
+                        </li>
+                        
+                    </ul>
+                </article>
+            </details>
+        
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Nordic Chair </a>
+                </li>
+                <li class="hidden sm:block gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Kruzo Aero </a>
+                </li>
+                <li class="hidden sm:block  gap-2">
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Ergonomic Chair </a>
+                </li>
+                
+            
+        </li></div> </ul>
+
+
+        </div>
+      </div> 
+
+
+
+  
+      <div class="mt-12 border-t border-gray-100 pt-6">
+        <div class="text-center sm:flex sm:justify-between sm:text-left">
+          <p class="text-sm text-gray-500">
+            <span class="block sm:inline">All rights reserved.</span>
+  
+            <a
+              class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+              href="#"
+            >
+              Terms & Conditions
+            </a>
+  
+            <span>&middot;</span>
+  
+            <a
+              class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+              href="#"
+            >
+              Privacy Policy
+            </a>
+          </p>
+  
+          <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2022 Fin Comapany</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- End Footer Section -->	
 
 					
 		
